@@ -79,6 +79,7 @@ public class ScoreManager : MonoBehaviour
 
     public void AddScore(int amount)
     {
+        // Debug.Log(amount);
         CurrentScore += (int)(amount * (1 + CurrentCombo/10f));
         CurrentCombo++;
         comboTimer = ComboWaitTime;

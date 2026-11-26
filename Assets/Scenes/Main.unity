@@ -283,7 +283,7 @@ Transform:
   m_GameObject: {fileID: 220845858}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 8.18, z: 0}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16657,6 +16657,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2013610251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013610252}
+  - component: {fileID: 2013610253}
+  m_Layer: 0
+  m_Name: foguete chato spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2013610252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013610251}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2013610253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013610251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77685cd41bb15584b9a514806c8ffb97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FogueteSpawner
+  foguete: {fileID: 3572482201699756800, guid: 8f31ad383efda3b45a251feb558767a9, type: 3}
+  maxSpawnTime: 12
+  minSpawnTime: 10
+  timeToStart: 0.3
+  timeBetweenDoubleSpawn: 1.3
+  horizontalRange: 2.2
 --- !u!1 &2087522134
 GameObject:
   m_ObjectHideFlags: 0
@@ -16770,7 +16820,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 396790406}
-  - {fileID: 1884266422}
   - {fileID: 410537914}
   - {fileID: 959620361}
   - {fileID: 1934412760}
@@ -16783,4 +16832,6 @@ SceneRoots:
   - {fileID: 480969314}
   - {fileID: 567020487}
   - {fileID: 635057070}
+  - {fileID: 1884266422}
   - {fileID: 220845859}
+  - {fileID: 2013610252}
