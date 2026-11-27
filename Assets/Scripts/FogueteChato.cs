@@ -25,6 +25,10 @@ public class FogueteChato : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (projectile.Exploded)
+        {
+            return;
+        }
         rb.linearVelocityX = Mathf.Lerp(rb.linearVelocityX, maxHorizontalSpeed * currentDirection,
         horizontalAcceleration -(0.7f * horizontalAcceleration * (Mathf.Abs(rb.linearVelocityX)/maxHorizontalSpeed)));
         // Debug.Log(Mathf.Abs(rb.linearVelocityX));
@@ -38,6 +42,8 @@ public class FogueteChato : MonoBehaviour
     void OnDeath()
     {
         ScoreManager.Instance.AddScore(scoreValue);
-        Destroy(gameObject);
+        projectile.Explode();
+        rb.linearVelocityX = 0;
+        SFXManager.Instance.PlayAudio(SFXManager.Instance.GenericExplosion, transform.position, 0.6f, 0.55f, Random.Range(0.9f, 1.1f));
     }
 }

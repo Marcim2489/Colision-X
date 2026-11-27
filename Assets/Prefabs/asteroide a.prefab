@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1723788747653617600}
   - component: {fileID: 5888070324655959978}
   - component: {fileID: 6378147721677568147}
+  - component: {fileID: 3808982710200538296}
   m_Layer: 0
   m_Name: asteroide a
   m_TagString: Untagged
@@ -85,7 +86,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7948163847538384659, guid: 3da2264fca05289468f607f7af33f857, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -123,15 +124,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Asteroid
   rb: {fileID: 6921762430653291751}
-  animator: {fileID: 0}
+  animator: {fileID: 3808982710200538296}
   colliders:
   - {fileID: 1723788747653617600}
   - {fileID: 5888070324655959978}
   - {fileID: 6378147721677568147}
   explosionDuration: 0.2
+  particleS: {fileID: 0}
+  stopWhenExploding: 1
+  explodeOnHit: 0
   healthComponent: {fileID: 8340930730691667035}
   speedMultiplier: 1
   scoreValue: 1000
+  rotates: 1
+  shootingStar: 0
 --- !u!50 &6921762430653291751
 Rigidbody2D:
   serializedVersion: 5
@@ -267,3 +273,25 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.31607506, y: 0.20132568}
   m_Radius: 0.37373248
+--- !u!95 &3808982710200538296
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2883047263860938732}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d16a503cd4862c249863a3e6582eb5d2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

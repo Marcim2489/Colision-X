@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: ce0d8dac423eaad4ba25c8feb3362b4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7177038723529278978
+    second: estrelao morrendo_0
+  - first:
+      213: -8624462234407225262
+    second: estrelao morrendo_1
+  - first:
+      213: -3521651347407753809
+    second: estrelao morrendo_2
+  - first:
+      213: 1735275060823156785
+    second: estrelao morrendo_3
+  - first:
+      213: 5803398779191395068
+    second: estrelao morrendo_4
+  - first:
+      213: 5254250957901829470
+    second: estrelao morrendo_5
+  - first:
+      213: 2845434393785796800
+    second: estrelao morrendo_6
+  - first:
+      213: 704953978521657976
+    second: estrelao morrendo_7
+  - first:
+      213: -1234324912267011130
+    second: estrelao morrendo_8
+  - first:
+      213: -4387365188406171423
+    second: estrelao morrendo_9
+  - first:
+      213: -1237367586417305115
+    second: estrelao morrendo_10
+  - first:
+      213: -250032971642813968
+    second: estrelao morrendo_11
+  - first:
+      213: 2004929434077692690
+    second: estrelao morrendo_12
+  - first:
+      213: -2185140496661214896
+    second: estrelao morrendo_13
+  - first:
+      213: -8717316791010203022
+    second: estrelao morrendo_14
+  - first:
+      213: 3337934117268018283
+    second: estrelao morrendo_15
+  - first:
+      213: 5014288520108304517
+    second: estrelao morrendo_16
+  - first:
+      213: -10108300332709711
+    second: estrelao morrendo_17
+  - first:
+      213: 5103000972117260221
+    second: estrelao morrendo_18
+  - first:
+      213: 8553988620775003992
+    second: estrelao morrendo_19
+  - first:
+      213: 197166551882104587
+    second: estrelao morrendo_20
+  - first:
+      213: -9121336992499468727
+    second: estrelao morrendo_21
+  - first:
+      213: 3036187158495235450
+    second: estrelao morrendo_22
+  - first:
+      213: -7618286326153504679
+    second: estrelao morrendo_23
+  - first:
+      213: -2254577708496012780
+    second: estrelao morrendo_24
+  - first:
+      213: 1127260885486529316
+    second: estrelao morrendo_25
+  - first:
+      213: -7941675094016715952
+    second: estrelao morrendo_26
+  - first:
+      213: -1682304773434859191
+    second: estrelao morrendo_27
+  - first:
+      213: -6940507664384504875
+    second: estrelao morrendo_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estrelao morrendo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef970d87e49066c90800000000000000
+      internalID: -7177038723529278978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelao morrendo_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258b26bca41cf4880800000000000000
+      internalID: -8624462234407225262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelao morrendo_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad2cfe02c4902fc0800000000000000
+      internalID: -3521651347407753809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7cfcaea28f6c25442b86a82bdb0f3fc9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":3.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      estrelao morrendo_0: -7177038723529278978
+      estrelao morrendo_1: -8624462234407225262
+      estrelao morrendo_2: -3521651347407753809
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

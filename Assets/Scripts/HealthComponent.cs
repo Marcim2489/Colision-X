@@ -23,7 +23,7 @@ public class HealthComponent : MonoBehaviour
     }
 
     bool alreadyDead = false;
-
+    public bool Dead => alreadyDead;
     public event UnityAction<int> healthChanged = delegate {};
     public event UnityAction died = delegate{};
 

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7228439381671748440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4541356633002410714}
+  - component: {fileID: 888280185093606190}
+  m_Layer: 0
+  m_Name: sfx manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4541356633002410714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7228439381671748440}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &888280185093606190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7228439381671748440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a7343766e18ac42b663f26fcfb3f8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SFXManager
+  playerShoot: {fileID: 8300000, guid: 4bd4088e6a6964549847a2ca48a35efb, type: 3}
+  asteroidExplosion: {fileID: 8300000, guid: 6808cb2bdf541ed48b41ad6f63e0349b, type: 3}
+  shootingStarScream: {fileID: 8300000, guid: d5a4964f8f79a2f4395c405a9776f184, type: 3}
+  shootingStarExplosion: {fileID: 8300000, guid: c0866edf147098343bf2b6d59dfe6429, type: 3}
+  genericExplosion: {fileID: 8300000, guid: d2e3764a256bd7a4ab8a7d5ea2116498, type: 3}
+  estrelaoExplosion: {fileID: 8300000, guid: 477c27aa269fe93449599968757c77f8, type: 3}
+  estrelaoShoot: {fileID: 8300000, guid: f90467e0bb85c9c41b6e7c87ea57cc5b, type: 3}
+  playerExplosion: {fileID: 8300000, guid: 9ab06bc58a77f6b4b87fb6b58a0572a6, type: 3}
+  buttonPress: {fileID: 8300000, guid: 32e0a84913866bb4b98bf338805c0898, type: 3}
+  gameOverSad: {fileID: 8300000, guid: 4516728f365dc814db73f4c1880fb379, type: 3}
+  gameOverHappy: {fileID: 8300000, guid: 09a2095c03d956c48b1fe8f4f9df1cab, type: 3}

@@ -6,7 +6,7 @@ public class ProjectileDisabler : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Projectile>(out Projectile p))
         {
-            if (p is Asteroid == false)
+            if (p.CompareTag("ProjetilPlayer"))
             {
                 p.DisableCollisions();
                 // Debug.Log("a");

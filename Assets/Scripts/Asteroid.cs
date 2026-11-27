@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Asteroid : Projectile
@@ -6,7 +7,7 @@ public class Asteroid : Projectile
     [SerializeField]float speedMultiplier = 1f;
     [SerializeField]int scoreValue = 1000;
     [SerializeField]bool rotates = true;
-
+    [SerializeField]bool shootingStar = false;
     float rotationSpeed;
 
     void Start()
@@ -45,7 +46,23 @@ public class Asteroid : Projectile
 
     void OnDeath()
     {
-        base.Explode();
+        rotationSpeed = 0f;
+        Explode();
+        if (shootingStar)
+        {
+            SFXManager.Instance.PlayAudio(SFXManager.Instance.ShootingStarScream, transform.position, 0.5f);
+            StartCoroutine(ExplosionSoundCoroutine());
+        }
+        else
+        {
+            SFXManager.Instance.PlayAudio(SFXManager.Instance.AsteroidExplosion, transform.position, 0.6f, 0.5f, Random.Range(0.9f, 1.1f));
+        }
         ScoreManager.Instance.AddScore(scoreValue);
+    }
+
+    IEnumerator ExplosionSoundCoroutine()
+    {
+        yield return new WaitForSeconds(0.25f);
+        SFXManager.Instance.PlayAudio(SFXManager.Instance.ShootingStarExplosion, transform.position, 0.6f, 0.5f);
     }
 }

@@ -26,6 +26,11 @@ public class ShootingStarSpawner : MonoBehaviour
         (Vector3.right * randomDir * horizontalOffset);
 
         p.Shoot(Vector2.left * randomDir, shootingStarSpeed, 1, 15f);
+        if (randomDir > 0)
+        {
+            p.PSystem.transform.Rotate(Vector3.right * -180);
+        }
+        
         StartCoroutine(SpawnCoroutine());
     }
 

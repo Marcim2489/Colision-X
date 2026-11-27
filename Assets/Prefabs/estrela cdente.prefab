@@ -85,7 +85,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 950048000202074570, guid: b00fc2492b9004f43bc79573d9a08f5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -126,13 +126,15 @@ MonoBehaviour:
   animator: {fileID: 8780879500157327268}
   colliders:
   - {fileID: 1723788747653617600}
-  explosionDuration: 0.1
+  explosionDuration: 0.417
   particleS: {fileID: 195665408039226335}
-  stopWhenExploding: 0
+  stopWhenExploding: 1
+  explodeOnHit: 0
   healthComponent: {fileID: 8340930730691667035}
   speedMultiplier: 0.7
   scoreValue: 50000
   rotates: 0
+  shootingStar: 1
 --- !u!50 &6921762430653291751
 Rigidbody2D:
   serializedVersion: 5

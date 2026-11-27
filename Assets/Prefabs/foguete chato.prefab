@@ -87,7 +87,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2323061638786257653, guid: 51b46e7ea337a60488c86820ce44a4f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172d55b2fa88d244685022c9fab9b11c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
-  initialHealth: 8
+  initialHealth: 10
 --- !u!114 &5833692844450243949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,9 +248,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   rb: {fileID: 2707620899236706417}
-  animator: {fileID: 0}
-  colliders: []
-  explosionDuration: 0.2
+  animator: {fileID: 903643966407992499}
+  colliders:
+  - {fileID: 3224007034999540105}
+  - {fileID: 4910303092021605642}
+  explosionDuration: 0.333
   particleS: {fileID: 639892206564771149}
   stopWhenExploding: 1
   explodeOnHit: 0

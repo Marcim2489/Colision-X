@@ -15,6 +15,10 @@ public class Projectile : MonoBehaviour
 
     protected bool exploded = false;
 
+    public bool Exploded => exploded;
+
+    public ParticleSystem PSystem => particleS;
+
     public virtual void Shoot(Vector2 direction, float speed, int damage, float lifetime = 3f)
     {
         Damage = damage;
@@ -47,7 +51,7 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    protected void Explode()
+    public void Explode()
     {
         exploded = true;
         if (stopWhenExploding)
@@ -58,7 +62,7 @@ public class Projectile : MonoBehaviour
         DisableCollisions();
         if (particleS != null)
         {
-            particleS.Pause();
+            particleS.Stop(true, ParticleSystemStopBehavior.StopEmitting);
         }
         if (animator != null)
         {
